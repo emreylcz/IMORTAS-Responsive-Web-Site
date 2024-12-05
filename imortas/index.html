@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IMORTAS | Anasayfa</title>
+    <!-- Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="emreylcz - emre.yolcu16@gmail.com" /> 
+    <!-- Favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Swiper-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- LightBox-->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body onselectstart="return false" ondragstart="return false">
+
+  <div class="loader"></div>
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <!-- container -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/imortas_logo.png" class="img-fluid" alt="Logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbarmodal">
+                    <input type='checkbox' id='toggle-menu' />
+                    <label type="button" class='toggle-btn' for='toggle-menu'>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </label>
+                </button>
+                
+                <div class="collapse navbar-collapse">
+                    <!-- ms-auto -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">ANASAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kurumsal.html">KURUMSAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="teknoloji.html">TEKNOLOJİLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urunler.html">ÜRÜNLER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="referanslar.html">REFERANSLAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="insan-kaynaklari.html">İK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+                        </li>
+                        
+                        <div class="language">
+                            <a href="en/index.html">
+                              <img src="img/English.png" class="language-body" title="English">
+                            </a>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="main swiper mySwiper">
+                <div class="wrapper swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="img/anasayfa-image-01.jpg" class="image">
+                        <div class="image-data">
+                            <h1 class="text wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.3s" data-swiper-parallax="-300">KURUMSAL KİMLİĞİMİZ <br>YENİLENDİ...</h1>
+                            <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" data-swiper-parallax="-200">Çağın yeniliklerine uyum sağlamak,<br>
+                                değişen ve gelişen yapımızı korumak için<br>
+                                logomuz ve kurumsal kimliğimizi yeniledik.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="img/anasayfa-image-02.jpg" class="image">
+                        <div class="image-data">
+                            <h1 class="text" data-swiper-parallax="-300">SÜREKLİ YENİLİK VE<br>GELİŞİM...</h1>
+                            <h2 data-swiper-parallax="-200">Faaliyet konumuzla, değerlerimizle, imalat yeteneklerimizle,<br>
+                                çevreye duyarlı, paydaşlarına değer katan, mükemmel olma yolunda<br>
+                                sürekli yenileşen bir firmayız.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="img/anasayfa-image-03.jpg" class="image">
+                        <div class="image-data">
+                            <h1 class="text" data-swiper-parallax="-300">KALİTELİ ÜRETİM...</h1>
+                            <h2 data-swiper-parallax="-200">Müşteri odaklı ve sürekli gelişim prensibimize dayalı olarak<br>
+                                kalite, maliyet ve süre hedefimize ulaşarak, müşterilerimizin isteklerine<br>
+                                en iyi ve en hızlı cevabı vermek için çalışıyoruz.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="img/anasayfa-image-04.jpg" class="image">
+                        <div class="image-data">
+                            <h1 class="text" data-swiper-parallax="-300">ÇÖZÜM VE YENİLİK...</h1>
+                            <h2 data-swiper-parallax="-200">Hedeflerimizi yenilik ve sürekli gelişim üzerine kuruyor,<br>
+                                ve bunları kalıcı kılacak stratejiler geliştirmeye çalışıyoruz.<br>
+                                Personel ve tedarikçilerimizi, kaynakları doğru yönde kullanarak<br>
+                                yapıcı çözümler bulmaya özen gösteriyoruz.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="navbarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="img/imortas_logo.png" alt="Logo" class="rounded mx-auto d-block img-fluid">
+                    </div>
+                    <div class="modal-body">
+                        <!-- ms-auto -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i> ANASAYFA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kurumsal.html"><i class="fa fa-tags"></i> KURUMSAL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="teknoloji.html"><i class="fa fa-microchip"></i> TEKNOLOJİLER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="urunler.html"><i class="fa fa-box-open"></i> ÜRÜNLER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="referanslar.html"><i class="fas fa-tags"></i> REFERANSLAR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="insan-kaynaklari.html"><i class="fa fa-users"></i> İK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="iletisim.html"><i class="fa fa-envelope"></i> İLETİŞİM</a>
+                            </li>
+
+                            <div class="language">
+                                <a href="en/index.html">
+                                  <img src="img/English.png" class="language-body" title="English">
+                                </a>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="site-section cta-big-image" id="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up">
+              <img src="img/hakkimizda-image-01.jpg" class="circle-bg img-fluid">
+            </div>
+            <div class="col-lg-5 ml-auto about-text" data-aos="fade-up" data-aos-delay="100">
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Hakkımızda</h3>
+                <p class="text-gray">İmortaş A.Ş. 1981 yılında Bursa'daki atölyesinde vites kutusu pulları ve ayar parçaları üretmeye başlamıştır. 
+                İmortaş,  ana müşterileri olan otomotiv üreticileri ve yan sanayilerinin sürekli artan taleplerini karşılayabilmek üzere devamlı 
+                büyümüş ve sonuçta zengin üretim olanaklarına sahip çok yönlü bir firma haline gelmiştir.</p>
+              </div>
+              
+              <div class="mb-4 about-text-title">
+                <h4>"Sürekli Yenilik Ve Gelişim..."</h4>
+              </div>
+  
+              <p><a href="hakkimizda.html" class="btn btn-warning about-button">Devamını Oku</a></p>
+  
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <section class="vizyon">
+        <div class="vizyon-image" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="vizyon-title">Vizyon</h3>
+              <p class="vizyon-text"><img src="img/right.png" class="tirnak-isareti"> Mükemmellik yolunda sürekli yenileşip gelişerek tercih edilen bir iş ortağı olmak. 
+              <img src="img/left.png" class="tirnak-isareti"></p>
+        </div>
+      </section>
+
+      <div class="sertifika-heading">
+        <center><h2 class="title-hr galeri-title" data-aos="fade" data-aos-delay="100">Sertifikalarımız</h2></center>
+      </div>
+
+      <div class="container sertifika what-we-do">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <a href="img/pdf/imortas_iso_9001_2015_sertifika.pdf" target="_blank" class="sertifika-ahref">
+                <div class="sertifika-body1 text-center">
+                  <img src="img/sertifika.png" width="65px" height="65px" class="sertifika-image">
+                  <span class="sertifika-text">ISO 9001 : 2015</span>
+                </div></a>
+              </div>
+
+              <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <a href="img/pdf/imortas_iso_14001_2015_sertifika.pdf" target="_blank" class="sertifika-ahref">
+                  <div class="sertifika-body2 text-center">
+                    <img src="img/sertifika.png" width="65px" height="65px" class="sertifika-image">
+                    <span class="sertifika-text">ISO 14001 : 2015</span>
+                </div></a>
+              </div>
+
+              <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <a href="img/pdf/imortas_iatf_16949_2016_sertifika.pdf" target="_blank" class="sertifika-ahref">
+                  <div class="sertifika-body3 text-center">
+                    <img src="img/sertifika.png" width="65px" height="65px" class="sertifika-image">
+                    <span class="sertifika-text">IATF 16949 - 2016</span>
+                </div></a>
+              </div>
+
+          </div>
+      </div>
+
+      <center><h2 class="title-hr galeri-title" data-aos="fade">Galerimiz</h2></center>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="gallery-image">
+
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="100">
+                      <a href="img/teknoloji-image-kalip-01.jpg" class="gallery-image-a" data-lightbox="models" data-title="KALIP İMALATI, PRES, HASSAS KESME">
+                        <img src="img/teknoloji-image-kalip-01.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>KALIP İMALATI, PRES, HASSAS KESME</p>
+                            <!-- <p class="opacity-low">boş</p> -->
+                          </div>
+                        </div> 
+                        </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="100">
+                        <a href="img/teknoloji-image-kalip-02.jpg" class="gallery-image-a" data-lightbox="models" data-title="KALIP İMALATI, PRES, HASSAS KESME">
+                          <img src="img/teknoloji-image-kalip-02.jpg" class="img-fluid"/>
+                          <div class="transparent-box">
+                            <div class="caption">
+                              <p>KALIP İMALATI, PRES, HASSAS KESME</p>
+                            </div>
+                          </div> 
+                        </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="100">
+                        <a href="img/teknoloji-image-kalip-03.jpg" class="gallery-image-a" data-lightbox="models" data-title="KALIP İMALATI, PRES, HASSAS KESME">
+                          <img src="img/teknoloji-image-kalip-03.jpg" class="img-fluid"/>
+                          <div class="transparent-box">
+                            <div class="caption">
+                              <p>KALIP İMALATI, PRES, HASSAS KESME</p>
+                            </div>
+                          </div> 
+                        </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="150">
+                      <a href="img/teknoloji-image-03.jpg" class="gallery-image-a" data-lightbox="models" data-title="ISIL İŞLEM">
+                        <img src="img/teknoloji-image-03.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                            <div class="caption">
+                              <p>ISIL İŞLEM</p>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="150">
+                      <a href="img/teknoloji-image-isil-01.jpg" class="gallery-image-a" data-lightbox="models" data-title="ISIL İŞLEM">
+                        <img src="img/teknoloji-image-isil-01.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                            <div class="caption">
+                             <p>ISIL İŞLEM</p>
+                            </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="150">
+                      <a href="img/teknoloji-image-talasli-01.jpg" class="gallery-image-a" data-lightbox="models" data-title="TALAŞLI İMALAT">
+                        <img src="img/teknoloji-image-talasli-01.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>TALAŞLI İMALAT</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="200">
+                      <a href="img/teknoloji-image-talasli-03.jpg" class="gallery-image-a" data-lightbox="models" data-title="TALAŞLI İMALAT">
+                        <img src="img/teknoloji-image-talasli-03.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>TALAŞLI İMALAT</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="200">
+                      <a href="img/teknoloji-image-taslama-01.jpg" class="gallery-image-a" data-lightbox="models" data-title="TAŞLAMA">
+                        <img src="img/teknoloji-image-taslama-01.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>TAŞLAMA</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="200">
+                      <a href="img/teknoloji-image-yuzey-01.jpg" class="gallery-image-a" data-lightbox="models" data-title="YÜZEY İŞLEMLERİ">
+                        <img src="img/teknoloji-image-yuzey-01.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>YÜZEY İŞLEMLERİ</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="250">
+                      <a href="img/teknoloji-image-yuzey-02.jpg" class="gallery-image-a" data-lightbox="models" data-title="YÜZEY İŞLEMLERİ">
+                        <img src="img/teknoloji-image-yuzey-02.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>YÜZEY İŞLEMLERİ</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="250">
+                      <a href="img/teknoloji-image-07.jpg" class="gallery-image-a" data-lightbox="models" data-title="KAYNAK VE MONTAJ">
+                        <img src="img/teknoloji-image-07.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>KAYNAK VE MONTAJ</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+                    <div class="img-box" data-aos="fade-up" data-aos-delay="250">
+                      <a href="img/teknoloji-image-lojistik-02.jpg" class="gallery-image-a" data-lightbox="models" data-title="LOJİSTİK">
+                        <img src="img/teknoloji-image-lojistik-02.jpg" class="img-fluid"/>
+                        <div class="transparent-box">
+                          <div class="caption">
+                            <p>LOJİSTİK</p>
+                          </div>
+                        </div> 
+                      </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+  <footer>
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-md-4 col-lg-4 ms-auto">
+                  <img src="img/imortas_logo.png" class="logo">
+
+                  <p class="footer-text">
+                      İmortaş A.Ş. 1981 yılında Bursa'daki atölyesinde vites kutusu pulları ve ayar parçaları üretmeye başlamıştır. <br>
+                      <a href="hakkimizda.html" class="about-continue">Devamını Oku...</a>
+                  </p>
+                  <div class="social-mobile">
+                      <div class="social-icons">
+                          <a class="social-icon social-icon--İnstagram" href="https://www.instagram.com/imortas.as/?hl=tr" target="_blank">
+                              <img src="img/instagram.webp" width="30px" height="30px">
+                              <div class="tooltip">İnstagram</div>
+                          </a>
+                          <a class="social-icon social-icon--Facebook" href="https://www.facebook.com/imortasAS/?ref=br_rs" target="_blank">
+                              <img src="img/facebook.png" width="30px" height="30px">
+                              <div class="tooltip">Facebook</div>
+                          </a>
+                          <a class="social-icon social-icon--Twitter" href="https://twitter.com/ImortasAS" target="_blank">
+                              <img src="img/twitter.png" width="30px" height="30px">
+                              <div class="tooltip">Twitter</div>
+                          </a>
+                          <a class="social-icon social-icon--Linkedin" href="https://www.linkedin.com/company/imorta%C5%9F-a-%C5%9F-/" target="_blank">
+                              <img src="img/linkedin.png" width="30px" height="30px">
+                              <div class="tooltip">Linkedin</div>
+                          </a>
+                      </div>
+                  </div>
+
+                </div>
+    
+                <div class="col-md-4 col-lg-4 ms-auto">
+                    
+                    <ul class="footer-list">
+    
+                        <li>
+                            <p class="footer-list-title">Hızlı Menü</p>
+                        </li>
+              
+                        <li>
+                          <a href="index.html" class="footer-link">Anasayfa</a>
+                        </li>
+              
+                        <li>
+                          <a href="kurumsal.html" class="footer-link">Kurumsal</a>
+                        </li>
+              
+                        <li>
+                          <a href="teknoloji.html" class="footer-link">Teknolojiler</a>
+                        </li>
+              
+                        <li>
+                          <a href="urunler.html" class="footer-link">Ürünler</a>
+                        </li>
+    
+                        <li>
+                            <a href="referanslar.html" class="footer-link">Referanslar</a>
+                        </li>
+    
+                        <li>
+                            <a href="insan-kaynaklari.html" class="footer-link">İnsan Kaynakları</a>
+                        </li>
+    
+                        <li>
+                            <a href="iletisim.html" class="footer-link">İletişim</a>
+                        </li>
+              
+                    </ul>
+    
+                </div>
+    
+                <div class="col-md-4 col-lg-4 ms-auto">
+                    
+                    <ul class="footer-list">
+    
+                        <li>
+                            <p class="footer-list-title">Bize Ulaşın</p>
+                        </li>
+              
+                        <li class="footer-adress">
+                          <a href="https://www.google.com/maps/place/Imorta%C5%9F/@40.228791,28.9481868,17z/data=!4m5!3m4!1s0x14ca13f70e832acd:0x32702cdf3c39f013!8m2!3d40.2291266!4d28.9491624?shorturl=1" target="_blank">
+                          <div><img src="img/konum.png"width="20px" height="20px"> 
+                           <span class="adres">
+                               Işıktepe Organize Sanayi Bölgesi Lacivert Cadde No: 21 16215 BURSA / TÜRKİYE
+                           </span>
+                          </div></a>
+                       </li>
+              
+                        <li>
+                          <a href="tel:02242410051" class="footer-link"> <img src="img/telefon.png" width="20px" height="20px"> 0224 241 00 51</a>
+                        </li>
+              
+                        <li>
+                          <img src="img/fax.png" width="20px" height="20px"> 0224 241 50 70
+                        </li>
+              
+                        <li>
+                          <a href="mailto:info@imortas.com.tr" class="footer-link"> <img src="img/mail.png" width="20px" height="20px"> info@imortas.com.tr</a>
+                        </li>
+              
+                    </ul>
+    
+                </div>
+    
+                <div class="footer-bottom">
+                    <p class="copyright">
+                    © 2024 İmortaş | Tüm Hakları Saklıdır | Designed by <a href="https://www.instagram.com/emreylcz/" target="_blank"> emreylcz</a></p>
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+</footer> 
+
+<!-- #Top UP -->
+<div id="progress">
+  <span id="progress-value"><img src="img/up-arrow.png" width="22px" height="22px" class="progress-phonemode"></span>
+</div>
+<!-- #Telefon -->
+<a href="tel:02242410051" class="phone" id="contact-effects-phone"> <img src="img/phone.webp" title="Ara"></a>
+
+<!-- #Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- #Swiper -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- #Swiper Upload -->
+<script src="js/swiper-upload.js"></script>
+<!-- #LightBox -->
+<script src="js/lightbox-plus-jquery.js"></script>
+<!-- #AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- #WOW-->
+<script src="js/wow.min.js"></script>
+<!-- #JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
